@@ -15,6 +15,7 @@ body{
     color: white;
     padding: 15px 30px;
     margin-left: 5px;
+    
 }
 
 nav{
@@ -164,3 +165,34 @@ nav a {
     margin-top: 50px;
     text-align: center
 }
+/* footer style */
+footer{
+    margin-top: 100px;
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 100px 200px;
+}
+.footer-colum{
+    width: 50%;
+}
+.social-links{
+    align-items: center;
+    justify-content: center;
+}
+.contact-input input ,textarea{
+    display: block;
+    margin-bottom: 25px;
+
+    padding: 18px 350px 18px 30px;
+    color:  #351919;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    background-color: #FFF;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
